@@ -1,0 +1,94 @@
+.Footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #34a853;
+    background-color: rgba(231, 217, 217, 0.199);
+    background-color:#857D79 ;
+    background-color:#ebe2de ;
+    background-color:#f9f9f9;
+    min-height: 50vh;
+}
+.FooterContainer_01{
+    padding-top: 0.5rem;
+    padding: 0 8rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: center;
+    column-gap: 6rem;
+    width: 100%;
+    margin-top: 3rem;
+}
+.FooterContainer_02>p{
+    text-align: center;
+}
+.FooterContentContainers{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.FooterContentContainers>ul{
+    height: 12rem;
+}
+.FooterContentContainers>h3{
+    color:#ff006e;
+    margin-bottom: 0.2rem;
+    font-family: "IBM Plex Serif", serif;
+    font-family: "Inter", sans-serif;
+    font-size: 16.8px;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.FooterPolicy>ul>li:hover{
+    cursor: pointer;
+}
+.FooterContentContainers ul li{
+    list-style: none;
+    color: white;
+    color: #242424;
+    font-weight: 600;
+    font-size: 14px;
+
+    color: #23241f;
+    font-weight: 400;
+    font-size: 14.4px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1.5rem;
+    margin-top: 1.3rem;
+}
+.FooterContentContainers>ul>li>a{
+    text-decoration: none;
+    color: white;
+    color: #242424;
+    color: #242424;
+    color: #23241f;
+    font-weight: 400;
+    font-size: 14.4px;
+    font-family: "Inter", sans-serif;
+}
+
+
+@media only screen and (max-width:866px) {
+    .FooterContainer_01{
+        flex-wrap: wrap;
+        padding: 0 0rem;
+    }
+}
+@media only screen and (max-width:566px) {
+    
+    .Footer{
+        margin-top: 5rem;
+    }
+    /* .FooterContainer_01 */
+    .Comp02SubTitleAndDscriptionContainer>p {
+        font-size: 12px;
+    }
+    .Comp02SubTitleAndDscriptionContainer>p {
+        font-size: 12px;
+    }
+}

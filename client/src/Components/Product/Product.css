@@ -1,0 +1,68 @@
+.shopcontainer {
+    background-color: #f9f9f9;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Product Details */
+.product-name {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.pack-size{
+    font-weight: 700;
+}
+
+.product-category,
+.product-unit,
+.product-packsize {
+    margin-bottom: 0.5rem;
+}
+
+
+.real-price {
+    text-decoration: line-through rgb(156, 9, 9);
+}
+
+
+
+/* Image Gallery */
+.thumbnail-image {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail-image:hover {
+    transform: scale(1.1);
+}
+
+.view-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Description and Reviews */
+.product-description {
+    line-height: 1.6;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.offer-price,
+.real-price {
+    font-size: 25px;
+}
+
+.checkout {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }

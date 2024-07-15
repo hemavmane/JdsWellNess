@@ -1,0 +1,121 @@
+
+.Comp02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+.Comp02>article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.4em;
+    flex-wrap: wrap;
+}
+.Comp02Wrapper01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 17rem
+}
+.Comp02Wrapper01>h4{
+    font-size: 16.2px;
+    color: #320473;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-bottom: 0.7rem;
+   
+}
+.Comp02ImagAndDesc{
+  background-color:#ebe2de;
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
+  border-bottom-left-radius:5px ;
+  border-bottom-right-radius: 5px;
+}
+.Comp02ImagAndDesc:hover{
+    background-color :#320473;
+    color: white;
+}
+.Comp02ImagAndDesc>img{
+    width: 18rem;
+    max-height:13rem;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+}
+
+.Comp02ImagAndDesc>img:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    filter: grayscale(0%);
+  }
+  
+.Comp02ImagAndDesc>p{
+    line-height: 1.29;
+    text-align: justify;
+    min-height: 6.5rem;
+    padding: 2.5px 5px;
+
+    font-size: 13.4px;
+    font-size: 11px;
+    font-weight: 500;
+    padding-top: 11px;
+    /* color: #111111; */
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+}
+.Comp02ImagAndDesc>p:hover{
+    font-size: 11px;
+}
+   /* Responsive */
+
+@media only screen and (max-width:1100px){
+    .Comp02ImagAndDesc>img{
+        width:19rem;
+        max-height:19rem;
+        /* border-top-left-radius: 5px;
+        border-top-right-radius: 5px; */
+    }
+    .Comp02>article{
+        column-gap: 3.5rem;
+    }
+}
+@media only screen and (max-width:968px){
+    .Comp02>article{
+        gap: 3rem;
+    }
+    .Comp02ImagAndDesc>img{
+        width:19rem;
+        max-height:19rem;
+        /* border-top-left-radius: 5px;
+        border-top-right-radius: 5px; */
+    }
+}
+@media only screen and (max-width:900px){
+    .Comp02ImagAndDesc{
+        width:18.5rem;
+    }
+    .Comp02ImagAndDesc>img{
+        width:18.5rem;
+        max-height:19rem;
+        /* border-top-left-radius: 5px;
+        border-top-right-radius: 5px; */
+    }
+    .Comp02Wrapper01>h4{
+        margin-bottom: 0.5rem;
+    }
+    .Comp02{
+        margin-top: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .Comp02>article{
+        gap: 1.8rem;
+    }
+}

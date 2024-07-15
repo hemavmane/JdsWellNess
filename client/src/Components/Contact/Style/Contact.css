@@ -1,0 +1,186 @@
+.ContactBackImg{
+    background-image: url("https://images.unsplash.com/photo-1499159058454-75067059248a?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+.ContactError{
+    color: red;
+    margin-top: 2px;
+}
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 80vh; */
+    /* background-image: url("https://images.unsplash.com/photo-1499159058454-75067059248a?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat; */
+    position: relative;
+}
+.ContactWrapper{
+position: absolute;
+top: 5rem;
+right: 23rem;
+}
+.ContactWrapper>h1{
+    font-size: 20px;
+    color: #320473;
+    font-weight: 550;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    /* margin-bottom: 1.5rem; */
+}
+.ContactWrapper>h1>span:nth-child(1){
+    color: #34a853;
+    color: #ff006e;;
+    cursor: pointer;
+}
+.ContactWrapper>h1>span:nth-child(1):hover{
+    color: #0072c6;
+    color: #ff006e;
+}
+.ContactWrapper>h1>span:nth-child(2){
+    color: #857D79;
+}
+.ContactWrapper>form>div{
+    margin-bottom: 1.1rem;
+}
+.ContactWrapper>form>div>input{
+    width: 32rem;
+    height: 2.4rem;
+    /* margin-bottom: 1rem; */
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #34a853;
+    border: 1px solid #857D79;
+    padding: 0.4rem 1rem;
+    font-weight: 500;
+    font-size: 13px;
+}
+.ContactWrapper>form>div>textarea{
+    width: 32rem;
+    border: 1px solid #34a853;
+    border: 1px solid #857D79;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    font-weight: 500;
+    font-size: 17px;
+    outline: none;
+}
+.ContactWrapper>form>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ContactWrapper>form>div>label{
+color:#0072c6 ;
+color:#857D79;
+font-weight: 500;
+font-size: 12.5px;
+margin-bottom: 0.1rem;
+
+
+
+
+
+font-family: "Inter", sans-serif;
+/* text-align: center; */
+}
+.ContactSubmitBtn{
+    padding: 8px 40px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #320473;
+    border:0.1px solid #320473 ;
+    font-family: "Inter", sans-serif;
+}
+
+.ContactRecaptchaAndSubmitBtn{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+margin-top: 2rem;
+}
+.ContactRecaptchaAndSubmitBtn>button{
+   margin-bottom: 1.5rem;
+}
+
+.ContactFormSubmitBtn{
+    margin-top: 2rem;
+    width: 8rem;
+    padding: 0.5rem 1rem;
+    font-weight: 550;
+    font-size: 14px;
+    background-color: #0072c6;
+    color: darkred;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ContactFormSubmitBtnSuccessful{
+    margin-top: 2rem;
+    width: 8rem;
+    padding: 0.5rem 1rem;
+    font-weight: 550;
+    font-size: 14px;
+    background-color: #34a853;
+    background-color: rgb(253, 155, 12);
+    background-color: transparent;
+    color: white;
+    color: #768fa0;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width:1150px){
+    .ContactWrapper{
+        right: 5rem;
+        }
+}
+@media only screen and (max-width:530px){
+    .Contact{
+        height: 60vh;
+    }
+    .ContactWrapper{
+        top: 0.2rem;
+        right: 2rem;
+        }
+    .ContactWrapper>h1{
+        padding-bottom: 0.3rem;
+    }
+    .ContactWrapper>form>div>input{
+        width: 20rem;
+        height: 2.2rem;
+        margin-bottom: 0.5rem;
+    }
+    .ContactWrapper>form>div>textarea{
+        width: 20rem;
+    }
+    .ContactRecaptchaAndSubmitBtn{
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .ContactRecaptchaAndSubmitBtn>button{
+        margin-bottom: 0rem;
+     }
+     .ContactRecaptchaAndSubmitBtn>button{
+        margin-bottom: 0rem;
+     }
+        .ContactFormSubmitBtn{
+            margin-top: 1rem;
+        }
+        .ContactRecaptchaAndSubmitBtn>button{
+            margin-bottom: 0rem;
+         }
+         .ContactWrapper>form>label{
+            color:#0072c6 ;
+        }
+         
+}
